@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	margin:0px;
+	padding:0px;
+}
+
+div#leftbar
+{
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	width: 200px;
+}
+
+div#rightbar
+{
+	
+	margin:0px 0px 0px 5px;
+	padding:0px;
+	width: 230px;
+	
+	
+}
+
+.leathermenu
+{
+	padding: 2px 0px 0px 30px;
+	width: 120px;
+	margin: 1px 0px 1px 0px;
+	float:left;
+	background-repeat:no-repeat;
+	-moz-border-radius: 15px 5px / 5px 15px;
+	border-radius: 15px 5px / 5px 15px;
+	height:20px;
+	cursor:pointer;
+	
+}	
+
+.leathermenu:hover
+{
+	/*background-color: #CCDAE6;*/
+	-moz-box-shadow:    1px 1px 0px 0px #ccc;
+	-webkit-box-shadow: 1px 1px 0px 0px #ccc;
+	box-shadow:         1px 1px 0px 0px #ccc;
+}
+
+.leathermenu:active
+{
+	/*background-color: #C6D5E3;*/
+	-moz-box-shadow:    1px 1px 0px 0px #ccc;
+	-webkit-box-shadow: 1px 1px 0px 0px #ccc;
+	box-shadow:         1px 1px 0px 0px #ccc;
+
+}
+
+.selectedBar
+{
+	background-color:#929FB7;
+	font-weight:bold;
+	color: #FFF;
+	-moz-box-shadow:    1px 1px 5px 0px #ccc;
+	-webkit-box-shadow: 1px 1px 5px 0px #ccc;
+	box-shadow:         1px 1px 5px 0px #ccc;
+}
+
+p#myName
+{	
+	width: 90px;	
+}
+span#leftbarloading
+{
+	float:right;
+}
+	
+span#lastLoginArea
+{
+	position:relative;
+	visibility:hidden;
+}
+

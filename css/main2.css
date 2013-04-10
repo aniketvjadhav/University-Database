@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+html {overflow-y: scroll;}
+.header{
+	
+	margin-left:auto;
+	margin-right:auto;
+}
+
+fieldset#workArea
+{
+	width: 580px;
+	margin-left: 10px;
+	margin-top: 20px;
+	
+}
+
+span.loading
+{
+	
+	width: 15px;
+	height:18px;
+	background-image:url(../images/loading3.gif);
+	background-repeat:no-repeat;
+	background-position:0px 5px;
+}
+
+div.success
+{
+	background: #ddfcc2; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ddfcc2 0%, #a2ea7c 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ddfcc2), color-stop(100%,#a2ea7c)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ddfcc2 0%,#a2ea7c 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ddfcc2 0%,#a2ea7c 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ddfcc2 0%,#a2ea7c 100%); /* IE10+ */
+	background: linear-gradient(top,  #ddfcc2 0%,#a2ea7c 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ddfcc2', endColorstr='#a2ea7c',GradientType=0 ); /* IE6-9 */
+
+	border:thin solid #390;
+	margin-top:10px;
+	margin-bottom: 10px;
+	height: 15px;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	
+	-moz-border-radius: 10px 5px / 5px 10px;
+	border-radius: 10px 5px / 5px 10px;
+}
+
+div.success#empInsert
+{
+	width: 100%;
+}
+
+.select-input[rel="time"]{
+	width: 79px;
+}
+
+.handle:before
+{
+	content: "✚ ";
+	font-weight:normal;
+	
+}
+.handle
+{
+	font-size:11px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color: #7B819D;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.handle:hover
+{
+	font-size:11px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color: #555;
+	font-weight:bold;
+
+}
+
+.courseResultBox{
+	width: 550px;
+}
+
+.examHead{
+	margin-top:20px;
+	
+}
+
+.divExamList{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+
+a.examList {
+	text-decoration:none;
+}
+
+
+.gradeTop{
+	background-color:#929FB7;
+	color:#FFF;
+}
+
+.grade1{
+	background-color:#EEE;
+	
+}
+
+.grade0{
+	background-color:#DDD;
+	
+}
+
+
+.gradeText{
+	
+	width: 50px;
+	color: #263953;
+	padding: 4px;
+	border: 1px solid #B5B8C8;
+	font-size: 13px;
+	margin-bottom: 4px;
+	margin-top: 4px;
+	background: #FFF repeat-x;
+	height:25px;
+	outline-color:#069;
+  	outline-style:thin;
+}
+
+.select-input#day{
+	width: 70px;	
+}
+
+.select-input#month{
+	width: 80px;
+	margin-left:3px;
+}
+
+.select-input#year{
+	width: 80px;
+	
+}
+
+#GradeSubmit{
+	margin-left:55px;
+}
+
+#GradeUpdateSubmit{
+	margin-left:55px;
+}
+
+.bgImage{
+	background:url(../images/univ_new1.jpg);
+	height:340px;
+	background-repeat:no-repeat;
+	border-radius: 5px;
+	width:500px;
+	margin-left:30px;
+	
+}
